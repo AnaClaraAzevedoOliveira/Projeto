@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffdf7;
+}
+header {
+    background-color: #ffd166;
+}
+h1, h2 {
+    color: #ef476f;
+    font-weight: bold;
+}
+footer {
+    background-color: #ffd166;
+}
+.formulario {
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.botao{
+
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
+}
+
+.rotacao-botao{ 
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
